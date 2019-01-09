@@ -6,21 +6,24 @@ button, input[type='submit'] {
         height: auto;
         max-height: 90%;
         color: white;
-        border: 0;
+        border: solid black;
         cursor: pointer;
         padding: 1vh;
         background-color: black;
 }
-button:hover, input[type='submit']:hover {
-        background-color: gray;
+button:hover, button[type='primary']:hover, button[type='danger']:hover, button[type='success']:hover, input[type='submit']:hover {
+        background-color: white;
         color: black;
 }
-button.primary {
+button[type='primary'] {
         background-color: dodgerblue;
+        border-color: dodgerblue;
 }
-button.danger {
+button[type='danger'] {
         background-color: red;
+        border-color: red;
 }
-button.success {
-        background-color: springgreen;
+button[type='success'] {
+        background-color: limegreen;
+        border-color: limegreen;
 }
