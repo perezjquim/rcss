@@ -1,0 +1,66 @@
+nav>div {
+        height: 100%;
+        flex-direction: row;
+}
+nav>div * {
+        padding: 0.5vh;
+}
+nav a {
+        z-index: 50;
+}
+nav>div>.dropdown>img {
+        max-width: 30px;
+        min-width: 30px;
+        max-height: 30px;
+        min-height: 30px;
+}
+.dropdown-content {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        right: 0;
+        z-index: 99999;
+        width: auto;
+        background: gray;
+        top: 32px;
+}
+.dropdown-content a {
+        color: white;
+        padding: 25px;
+        text-decoration: none;
+}
+.dropdown-content a:hover {
+        background: white;
+        color: gray;
+}
+.dropdown:hover .dropdown-content {}
+.dropdown {
+        cursor: pointer;
+}
+nav>a:hover {
+        color: white;
+        text-decoration: none;
+}
+nav>a>img {
+        max-width: 30px;
+        min-width: 30px;
+        max-height: 30px;
+        min-height: 30px;
+        padding-right: 2vw;
+}
+@media only screen and (max-width: 400px) {
+        nav>a {
+                font-size: 0 !important;
+        }
+}
+@media only screen and (max-width: 780px) {
+        nav>h2 {
+                display: none;
+        }
+}
+nav>h2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 0;
+}

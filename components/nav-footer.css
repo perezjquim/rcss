@@ -1,0 +1,18 @@
+nav, footer {
+        background-color: #343a40;
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 20rem;
+        max-height: 10vh;
+        width: 90vw;
+        padding: 0;
+        padding-left: 5vw;
+        padding-right: 5vw;
+}
+nav, footer, nav *, footer * {
+        color: white;
+}
+nav>* {
+        width: 33%;
+}

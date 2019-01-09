@@ -1,0 +1,17 @@
+nav {
+        top: 0;
+}
+nav, nav>* {
+        justify-content: space-around !important;
+}
+nav>* {
+        max-height: 100%;
+}
+nav>logo>img {
+        max-width: 8vw !important;
+        max-height: 8vw !important;
+        padding-right: 2vw;
+}
+title {
+        justify-content: center !important;
+}

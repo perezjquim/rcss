@@ -1,0 +1,6 @@
+a {
+        text-decoration: unset;
+}
+a:hover {
+        color: gray !important;
+}

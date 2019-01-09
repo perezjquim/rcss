@@ -1,0 +1,26 @@
+button, input[type='submit'] {
+        min-width: 2.5em;
+        width: auto;
+        max-width: 90%;
+        min-height: 2.5em;
+        height: auto;
+        max-height: 90%;
+        color: white;
+        border: 0;
+        cursor: pointer;
+        padding: 1vh;
+        background-color: black;
+}
+button:hover, input[type='submit']:hover {
+        background-color: gray;
+        color: black;
+}
+button.primary {
+        background-color: dodgerblue;
+}
+button.danger {
+        background-color: red;
+}
+button.success {
+        background-color: springgreen;
+}

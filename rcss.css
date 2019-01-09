@@ -1,0 +1,23 @@
+@import url("components/div.css");
+@import url("components/a.css");
+@import url("components/main.css");
+@import url("components/slides.css");
+@import url("components/button.css");
+@import url("components/nav-footer.css");
+@import url("components/nav.css");
+@import url("components/footer.css");
+* {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: black;
+}
+html, body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+}
+html, main, body {
+        width: 100vw;
+}
