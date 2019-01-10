@@ -1,18 +1,15 @@
 nav, footer {
         background-color: dimgray;
-        position: absolute;
+        position: fixed;
         left: 0;
         right: 0;
         min-height: 10vh;
         max-height: 20rem;
-        width: 90vw;
+        width: 100vw;
         padding: 0;
         padding-left: 5vw;
         padding-right: 5vw;
 }
 nav, footer, nav *, footer * {
         color: white;
-}
-nav>* {
-        width: 33%;
 }
