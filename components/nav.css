@@ -1,6 +1,7 @@
 nav {
         top: 0;
         box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19);
+        overflow: visible !important;
 }
 nav, nav>* {
         justify-content: space-around !important;
@@ -23,11 +24,35 @@ nav>actions {
 title {
         justify-content: center !important;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
         title {
                 display: none;
         }
         nav>* {
                 width: 50%;
+        }
+        nav>logo>img {
+                max-width: 50% !important;
+        }
+        nav>actions {
+                background-image: url(../resources/icons/menu.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-color: dimgray;
+                min-height: 100%;
+                flex-direction: column;
+                position: absolute;
+                right: 0;
+                display: flex;
+                max-height: unset !important;
+        }
+        nav>actions:hover {
+                padding-top: 33%;
+        }
+        nav>actions>* {
+                display: none;
+        }
+        nav>actions:hover>* {
+                display: flex;
         }
 }

@@ -9,19 +9,19 @@ button, input[type='submit'] {
         padding: 1vh;
         background-color: black;
 }
-button:hover, button[type='primary']:hover, button[type='danger']:hover, button[type='success']:hover, input[type='submit']:hover {
+button:hover, button[state='primary']:hover, button[state='danger']:hover, button[state='success']:hover, input[type='submit']:hover {
         background-color: white;
         color: black;
 }
-button[type='primary'] {
+button[state='primary'] {
         background-color: dodgerblue;
         border-color: dodgerblue;
 }
-button[type='danger'] {
+button[state='danger'] {
         background-color: red;
         border-color: red;
 }
-button[type='success'] {
+button[state='success'] {
         background-color: limegreen;
         border-color: limegreen;
 }
