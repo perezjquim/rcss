@@ -1,5 +1,5 @@
 nav, footer {
-        background-color: dimgray;
+        background-color: var(--main-color);
         position: fixed;
         left: 0;
         right: 0;

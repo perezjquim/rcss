@@ -19,6 +19,6 @@ td:hover {
         background-color: gray;
 }
 th {
-        background-color: dimgray;
+        background-color: var(--main-color);
         color: white;
 }

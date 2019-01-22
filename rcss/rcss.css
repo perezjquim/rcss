@@ -1,12 +1,16 @@
-@import url("components/div.css");
-@import url("components/a.css");
-@import url("components/main.css");
+@import url("base/div.css");
+@import url("base/a.css");
+@import url("base/main.css");
+@import url("base/button.css");
+@import url("base/nav-footer.css");
+@import url("base/nav.css");
+@import url("base/footer.css");
+@import url("base/table.css");
+@import url("base/input.css");
 @import url("components/slideshow.css");
-@import url("components/button.css");
-@import url("components/nav-footer.css");
-@import url("components/nav.css");
-@import url("components/footer.css");
-@import url("components/table.css");
+:root {
+        --main-color: indianred;
+}
 * {
         display: flex;
         align-items: center;
