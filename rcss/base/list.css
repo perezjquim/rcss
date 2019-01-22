@@ -1,0 +1,8 @@
+ul, ol {
+        display: block !important;
+}
+li {
+        display: list-item;
+        overflow: visible !important;
+        text-align: initial !important;
+}

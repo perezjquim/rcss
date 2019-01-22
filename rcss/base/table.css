@@ -11,6 +11,8 @@ tr {
 td, th {
         display: table-cell !important;
         padding: 0;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
 }
 td {
         background-color: lightgray;
