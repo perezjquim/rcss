@@ -18,7 +18,7 @@ nav>logo>img {
 title {
         justify-content: center !important;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
         title {
                 display: none;
         }

@@ -10,6 +10,9 @@
 @import url("components/slideshow.css");
 :root {
         --main-color: indianred;
+        --hover-color: dimgray;
+        --checked-color: limegreen;
+        --transition-time: 0.25s;
 }
 * {
         display: flex;
@@ -20,7 +23,7 @@
         font-family: Arial, Helvetica, sans-serif;
         overflow: hidden;
         flex-wrap: wrap;
-        transition: 0.25s;
+        transition: var(--transition-time);
 }
 html, body {
         padding: 0;

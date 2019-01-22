@@ -1,7 +1,39 @@
-input[type='text'] {
+input[type='text'], textarea {
         padding-bottom: 3vh;
         padding-top: 3vh;
+        border-width: 1px;
         border-color: var(--main-color);
         border-style: solid;
         background-color: whitesmoke;
+}
+textarea {
+        transition: 0s !important;
+}
+input[type="checkbox"], input[type="radio"] {
+        cursor: pointer;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: var(--main-color);
+        width: 10vw;
+        height: 10vw;
+        max-width: 30px;
+        max-height: 30px;
+        color: white;
+        font-size: 100%;
+}
+input[type="checkbox"]:checked, input[type="radio"]:checked {
+        background-color: var(--checked-color);
+}
+input[type="checkbox"]:hover, input[type="radio"]:hover {
+        background-color: var(--hover-color);
+}
+input[type="radio"] {
+        border-radius: 50%;
+}
+input[type="radio"]:checked:after {
+        content: "●";
+}
+input[type="checkbox"]:checked:after {
+        content: "✔";
 }
