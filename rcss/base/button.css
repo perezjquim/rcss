@@ -9,7 +9,7 @@ button, input[type='submit'] {
         cursor: pointer;
         padding: 1vh;
 }
-button:hover, input[type='submit']:hover {
+button:hover:not([disabled]), input[type='submit']:hover:not([disabled]) {
         background-color: white !important;
         color: black;
 }
@@ -28,4 +28,7 @@ button[state='danger'] {
 button[state='success'] {
         background-color: limegreen;
         border-color: limegreen;
+}
+button[disabled], input[disabled] {
+        cursor: not-allowed;
 }
