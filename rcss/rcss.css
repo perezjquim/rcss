@@ -1,3 +1,6 @@
+/* FONT */
+
+@import url("resources/fonts/roboto/roboto.css");
 /* BASE */
 
 @import url("base/div.css");
@@ -26,7 +29,7 @@
         justify-content: center;
         text-align: center;
         color: black;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Roboto', sans-serif;
         overflow: hidden;
         flex-wrap: wrap;
         transition: var(--transition-time);
