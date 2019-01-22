@@ -4,14 +4,18 @@ button, input[type='submit'] {
         height: auto;
         max-height: 50%;
         color: white;
+        background-color: black;
         border: solid black;
         cursor: pointer;
         padding: 1vh;
-        background-color: black;
 }
-button:hover, button[state='primary']:hover, button[state='danger']:hover, button[state='success']:hover, input[type='submit']:hover {
-        background-color: white;
+button:hover, input[type='submit']:hover {
+        background-color: white !important;
         color: black;
+}
+button:active, input[type='submit']:active {
+        border-color: gray !important;
+        color: gray !important;
 }
 button[state='primary'] {
         background-color: dodgerblue;
