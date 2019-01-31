@@ -1,5 +1,6 @@
 a {
         text-decoration: unset;
+        color: dodgerblue;
 }
 a:hover {
         text-decoration: underline;

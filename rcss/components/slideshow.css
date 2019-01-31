@@ -9,6 +9,9 @@ slideshow>* {
         height: 40vh;
         display: inline-block;
 }
+slideshow::before {
+        content: attr(title);
+}
 @keyframes anim_slideshow {
         from {
                 transform: translateX(-100%)

@@ -3,6 +3,7 @@
 @import url("resources/fonts/roboto/roboto.css");
 /* BASE */
 
+@import url("base/misc.css");
 @import url("base/div.css");
 @import url("base/a.css");
 @import url("base/main.css");
