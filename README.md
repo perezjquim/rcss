@@ -7,7 +7,7 @@
 `<link href="https://perezjquim.github.io/rcss/rcss/rcss.css" rel="stylesheet" type="text/css"/>`
 
 ##### Screenshots
-<img src="https://imgur.com/xhe1HLp.png" width="333" height="556"/> <img src="https://imgur.com/5tidwlx.png" width="333" height="556"/>
+<img src="https://imgur.com/xhe1HLp.png" width="100%" /> <img src="https://imgur.com/5tidwlx.png" width="100%" />
 
 ##### <a href="https://perezjquim.github.io/rcss/sample.html">Live demo</a>
 
