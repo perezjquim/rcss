@@ -1,5 +1,1 @@
-iframe {
-        border-width: 1px;
-        border-color: var(--main-color);
-        border-style: solid;
-}
+iframe{border-width:1px;border-color:var(--main-color);border-style:solid}

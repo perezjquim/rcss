@@ -1,7 +1,1 @@
-a {
-        text-decoration: unset;
-        color: dodgerblue;
-}
-a:hover {
-        text-decoration: underline;
-}
+a{text-decoration:unset;color:#1e90ff}a:hover{text-decoration:underline}

@@ -1,5 +1,1 @@
-main, main *, section, section * {
-        justify-content: space-around !important;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
-}
+main,main *,section,section *{justify-content:space-around!important;margin-top:10vh;margin-bottom:10vh}

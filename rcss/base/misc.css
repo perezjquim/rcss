@@ -1,6 +1,1 @@
-[hidden] {
-        display: none !important;
-}
-[disabled] {
-        cursor: not-allowed !important;
-}
+[hidden]{display:none!important}[disabled]{cursor:not-allowed!important}
